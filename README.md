@@ -43,4 +43,6 @@ Let CLI know to work with which cluster
 aws eks update-kubeconfig --region ap-south-1 --name threetier-cluster
 ``` 
 
-#### Next
+#### Cleanup
+* To delete the EKS cluster:
+> eksctl delete cluster --name threetier-cluster --region ap-south-1
